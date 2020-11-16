@@ -1,6 +1,4 @@
-
-
-class Solution{
+class Trie{
 	static int SIZE = 26;
 	static int M = 3;
 	static int N = 3;

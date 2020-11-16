@@ -1,13 +1,5 @@
 import java.util.Arrays;
 
-/**
- * 
- */
-
-/**
- * @author rax
- *
- */
 public class MergeSort1 {
 
 	/**
