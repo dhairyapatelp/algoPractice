@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/BST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BSTIterator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base62" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Boogle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BoundryOfBinaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BucketSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CanMakePalindrome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CanPartitionKSubsets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CoinChange" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CombinationSumII" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Combinations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ComparatorClassPractice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CourseSchedule" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DivisorGame" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FlipEquivBinaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HighestAverage" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Histogram" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IndividualDigitSum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/KMP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/KnightsTour" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LRUCache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LastRemaining" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LengthOfLongestSubstringKDistinct" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LongestIncreasingSubsequence" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MaximumLearning" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MedianOfTwoSortedArray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MergeIntervals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MergeSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MinFallingPathSum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MinimumWindowSubstring" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OrangesRotting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PalindromeString" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Partition" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProductSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/QuickSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RabinKarpImplementation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RandonNumberGenerator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RecursiveSum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ReturnPower" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ReverseStack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RotateArray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SubarraySum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Subsets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SumRootToLeaf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Swap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TimerClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TreeNode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Trie" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WordDistance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/isValidBST" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
