@@ -1,3 +1,5 @@
+package com.algoPractice.Base62;
+
 public class Base62{
 	public static void main(String[] args){
 		Base62 encodeString = new Base62();

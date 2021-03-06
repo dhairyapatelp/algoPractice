@@ -1,3 +1,5 @@
+package com.algoPractice.BST;
+
 import java.util.*;
 
 public class BST{
@@ -7,15 +9,15 @@ public class BST{
 		TreeNode dummy = node;
 		List<Integer> list = new ArrayList<Integer>();
 		BST root = new BST();
-        root.insert(dummy, 30); 
+        root.insert(dummy, 30);
         root.insert(dummy, 20);
-        root.insert(dummy, 40); 
-        root.insert(dummy, 70); 
-        root.insert(dummy, 60); 
+        root.insert(dummy, 40);
+        root.insert(dummy, 70);
+        root.insert(dummy, 60);
         root.insert(dummy, 80);
         root.insert(dummy, 1);
-  		
-        // print inorder traversal of the BST 
+
+        // print inorder traversal of the BST
         dummy = node;
 
         root.inorder(dummy, list);
@@ -30,7 +32,7 @@ public class BST{
 
 	private TreeNode inorder(TreeNode root, List<Integer> list){
 		if(root == null) {
-			return null;	
+			return null;
 		}
 		inorder(root.left, list);
 		list.add(root.val);
@@ -51,19 +53,19 @@ public class BST{
 	}
 
 	private boolean search(TreeNode root, int newNode){
-		boolean left = false; 
+		boolean left = false;
 		boolean right = false;
 
 		if(root == null) return false;
 		if(root.val == newNode){
-			return true;	
-		} 
+			return true;
+		}
 		if(root.val < newNode){
 			right = search(root.right, newNode);
-		} 
+		}
 		if(root.val > newNode){
-			left = search(root.left, newNode);	
-		} 
+			left = search(root.left, newNode);
+		}
 
 		return left || right;
 	}

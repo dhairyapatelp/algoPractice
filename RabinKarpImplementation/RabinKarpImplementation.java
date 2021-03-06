@@ -25,7 +25,7 @@ public class RabinKarpImplementation{
 		return -1;
 	}
 
-	private static boolean checkEqualSubstring(String str, String subString,  int strStart, int strEnd){
+	private static boolean checkEqualSubstring(String str, String subString, int strStart, int strEnd){
 
 		if(strEnd - strStart+1 != subString.length()) return false;
 		int subStart = 0;

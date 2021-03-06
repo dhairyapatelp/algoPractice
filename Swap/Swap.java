@@ -1,3 +1,5 @@
+package com.algoPractice.Swap;
+
 import java.util.*;
 
 public class Swap{
