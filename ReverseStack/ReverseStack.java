@@ -18,27 +18,44 @@ public class ReverseStack{
         }
     
      }
-     
      private void reverse(Stack<Integer> stack){
-        if(!stack.isEmpty()){
-            int val = stack.pop();
-            reverse(stack);
-            append(stack, val);
-        }
-        else{
-            return;
-        }
+         if(!stack.isEmpty()){
+             int val = stack.pop();
+             reverse(stack);
+             union(stack, val);
+         }else return;
      }
-     
-     private void append(Stack<Integer> stack, int a){
-        if(!stack.isEmpty()){
-            int val = stack.pop();
-            append(stack, a);
-            stack.push(val);
-        }
-        else{
-            stack.push(a);
-            return;
-        }
+     private void union(Stack<Integer> stack, int a){
+         if(!stack.isEmpty()){
+             int val = stack.pop();
+             union(stack, val);
+             stack.push(val);
+         }
+         else{
+             stack.push(a);
+             return;
+         }
      }
+//     private void reverse(Stack<Integer> stack){
+//        if(!stack.isEmpty()){
+//            int val = stack.pop();
+//            reverse(stack);
+//            append(stack, val);
+//        }
+//        else{
+//            return;
+//        }
+//     }
+//
+//     private void append(Stack<Integer> stack, int a){
+//        if(!stack.isEmpty()){
+//            int val = stack.pop();
+//            append(stack, a);
+//            stack.push(val);
+//        }
+//        else{
+//            stack.push(a);
+//            return;
+//        }
+//     }
 }

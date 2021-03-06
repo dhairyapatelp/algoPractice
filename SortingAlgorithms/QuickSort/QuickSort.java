@@ -1,45 +1,44 @@
-public class QuickSort{
+package SortingAlgorithms.QuickSort;
+
+class QuickSort{
 	public static void main(String[] args){
-		int[] nums = {3,2,1,4,7,5,6};
-
-		QuickSort sort = new QuickSort();
-		sort.sortImplementation(nums, 0, nums.length-1);
-		sort.printArray(nums);
+		int nums[] = {5,4,3,2,1};
+		partition(nums, 0, nums.length-1);
+		print(nums);
 	}
 
-	private void printArray(int[] nums){
-		System.out.println("==========");
-		for(int each: nums) System.out.println(each);
-		System.out.println("==========");
-	}
-
-	private void sortImplementation(int[] nums, int low, int high){
-		if(low < high){
-			int partitionIndex = partition(nums, low, high);
-			sortImplementation(nums, low, partitionIndex-1);
-			sortImplementation(nums, partitionIndex, high);
+	private static void print(int[] nums){
+		for(int each: nums){
+			System.out.println(each);
 		}
 	}
+	private static void partition(int[] nums, int low, int high){
+		if(low<high){
+			int median = median(nums, low, high);
+			partition(nums, low, median-1);
+			partition(nums, median, high);	
+		}
+		
+	}
 
-	private int partition(int[] nums, int low, int high){
+	private static int median(int[] nums, int low, int high){
 		int pivot = nums[high];
 		int i = low-1;
 
 		for(int j=low; j<high; j++){
 			if(nums[j]<pivot){
 				i++;
-				swapValues(nums, i, j);
+				swap(nums, i, j);
 			}
 		}
-		swapValues(nums, i+1, high);
-		
+		swap(nums, i+1, high);
 		return i+1;
 	}
 
-	private void swapValues(int[] nums, int valToSwap, int swapWithThisValue){
-		int temp = nums[valToSwap];
-		nums[valToSwap] = nums[swapWithThisValue];
-		nums[swapWithThisValue] = temp;
+	private static void swap(int[] nums, int swap1, int swap2){
+		int temp = nums[swap1];
+		nums[swap1] = nums[swap2];
+		nums[swap2] = temp;
 
 		return;
 	}

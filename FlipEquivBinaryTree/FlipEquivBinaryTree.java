@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class FlipEquivBinaryTree {
     public static class TreeNode {
         int val;

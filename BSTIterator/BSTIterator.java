@@ -1,7 +1,4 @@
-/**
- * Using a Prioriy Queue
- * 
- */
+package com.algoPractice.BSTIterator;
 import java.util.*;
 
 class BSTIterator {

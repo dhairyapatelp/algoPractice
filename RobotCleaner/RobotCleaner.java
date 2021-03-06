@@ -1,16 +1,14 @@
-public void cleanRoom(Robot robot) {
-        Set<String> set = new HashSet<>();
-        int cur_dir = 0;   // 0: up, 90: right, 180: down, 270: left
-        backtrack(robot, set, 0, 0, 0);
-    }
+package RobotCleaner;
+import java.util.*;
 
-    public void backtrack(Robot robot, Set<String> set, int i, 
-                int j, int cur_dir) {
+class RobotCleaner{
+    public void backtrack(Robot robot, Set<String> set, int i,
+                          int j, int cur_dir) {
         String tmp = i + "->" + j;
         if(set.contains(tmp)) {
             return;
         }
-        
+
         robot.clean();
         set.add(tmp);
 
@@ -43,9 +41,18 @@ public void cleanRoom(Robot robot) {
                 robot.move();
                 robot.turnRight();
                 robot.turnRight();
-            } 
+            }
             robot.turnRight();
             cur_dir += 90;
             cur_dir %= 360;
         }
     }
+    public void cleanRoom(Robot robot) {
+        Set<String> set = new HashSet<>();
+        int cur_dir = 0;   // 0: up, 90: right, 180: down, 270: left
+        backtrack(robot, set, 0, 0, 0);
+    }
+}
+
+
+

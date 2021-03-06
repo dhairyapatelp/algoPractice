@@ -21,7 +21,7 @@ class ProductSort{
 		pq.addAll(map.entrySet());
 
 		while(!pq.isEmpty()){
-			Map<Integer, Integer> each = pq.poll();
+			Map.Entry<Integer, Integer> each = pq.poll();
 			for(int i=0; i<each.getValue(); i++){
 				ans[index++] = each.getKey();
 			}

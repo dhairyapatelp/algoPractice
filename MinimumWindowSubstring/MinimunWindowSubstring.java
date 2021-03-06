@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class MinimunWindowSubstring{
 
   public String minWindow(String searchString, String t) {

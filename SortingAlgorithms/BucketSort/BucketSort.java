@@ -1,3 +1,5 @@
+package SortingAlgorithms.BucketSort;
+
 import java.lang.*;
 
 public class BucketSort{

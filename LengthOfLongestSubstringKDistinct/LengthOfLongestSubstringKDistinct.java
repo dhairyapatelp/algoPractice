@@ -1,7 +1,7 @@
 class LengthOfLongestSubstringKDistinct {
 
     public static void main(String[] args){
-        System.out.println("eceba", 2);
+        System.out.println(lengthOfLongestSubstringKDistinct("eceba", 2));
     }
     public static int lengthOfLongestSubstringKDistinct(String s, int k) {
         int res=0, i=0, num=0;
