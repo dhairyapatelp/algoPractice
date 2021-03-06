@@ -56,6 +56,7 @@ public class AverageWidthOfTree {
         averageWidth = avg.getAverageWidthOfTree(list, map);
         for(List<Integer> each: list) System.out.println(each);
         for(Integer each: averageWidth.keySet()){
+
             System.out.println(each+":"+averageWidth.get(each));
         }
 
